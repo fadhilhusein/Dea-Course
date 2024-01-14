@@ -1,0 +1,58 @@
+.inactive {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: .4s ease;
+}
+
+.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: .4s ease;
+}
+
+.modal-card {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: var(--color-white);
+    box-shadow: 0 0 0 transparent, 0 0 0 1000px rgba(0, 0, 0, 0.582);    
+}
+
+.modal-card__products {
+    padding: 10px;
+}
+
+.modal-card__products .product {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.modal-card__products .product:nth-child(even) {
+    background-color: rgba(156, 156, 156, 0.192);
+}
+
+.modal-card__desc {
+    border-radius: 13px 13px 0 0;
+    padding: 10px 5px;
+    background-color: var(--color-blue);
+}
+
+.modal-card__desc__totalPrice>span {
+    display: inline-block;
+    background-color: var(--color-dark-blue);
+    color: var(--color-white);
+    padding: 5px 10px;
+    width: fit-content;
+    border-radius: 10px;
+}

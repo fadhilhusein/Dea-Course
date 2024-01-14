@@ -1,0 +1,38 @@
+.home {
+  display: flex;
+  gap: 24px;
+  position: relative;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  column-gap: 14px;
+}
+
+.button {
+  border: none;
+  outline: none;
+  background-color: brown;
+  padding: 10px;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: .5s ease;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  filter: brightness(130%);
+  font-weight: bold;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

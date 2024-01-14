@@ -1,0 +1,27 @@
+IMPORTANT NOTE FOR THIS API :
+1. Helper response supaya response 1 format
+2. Swagger (documentation)
+
+import alias atau import absolute mempermudahkan untuk menulis route path dari component yang di import
+
+eslint membantu kita untuk menemukan error pada code kita khusus bahasa javascript dan typescript
+
+css module atau scope css adalah teknik penulisan css class atau id akan hanya ada di satu file dimana dia di import
+
+state adalah tempat penampungan data di react
+
+split component dengan membuat setiap component di file masing masing dan di import di satu tempat
+
+prop className variabel harus menggunakan pascal case
+
+**
+function/variabel/state/props, dst = camelCase
+Component (termasuk folder yang ngewrap si file component ini sendiri) = PascalCase
+constant = SNAKE_CASE
+**
+
+context mengugnakan paradigma consumer dan provider (consumer adalah pemakai, dan provider adalah pelayan untuk menyimpan semua state ke dalam
+context dan ketika component ingin memakai context maka akan menggunakan context consumer) bentuk provider mirip component.
+
+useReducer sama seperti memakai useState.
+useReducer adalah sebuah hub yang tugas nya mengumpulkan state dan jika ingin mengubah state hanya akan menggunakan satu function atau setter

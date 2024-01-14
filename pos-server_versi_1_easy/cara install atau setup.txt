@@ -1,0 +1,9 @@
+1. extract zip nya
+2. buka terminal di lokasi folder ini
+3. ketik:
+	npm install
+
+4. jalanin program ketik:
+	npm run dev
+
+jangan lupa nyalain dulu service MYSQL & APACHE nya di XAMPP atau di web server yang kalian pakai.
